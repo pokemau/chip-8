@@ -4,6 +4,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Resources
+// https://austinmorlan.com/posts/chip8_emulator
+// http://devernay.free.fr/hacks/chip8/C8TECH10.HTM
+
 int main(int argc, char **argv) {
     if (argc != 4) {
         fprintf(stderr, "Usage: %s <Scale> <Delay> <ROM>\n", argv[0]);
